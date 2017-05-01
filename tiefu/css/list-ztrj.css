@@ -1,7 +1,7 @@
 .container{
     width: 100%;
     height: 130px;
-    margin-top: 24px;
+    margin: 30px auto;
 }
 .content{
     width: 1200px;
@@ -108,15 +108,20 @@
     width: 1200px;
     height: auto;
     margin: 0 auto;
-    padding-left: 110px;
-    padding-right: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     box-sizing: border-box;
     margin-bottom: 90px;
     margin-top: 65px;
 }
 .ct-content{
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+.ct-content:after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .ct-left{
     border-top: 1px solid #666666;
@@ -137,18 +142,19 @@
 .ct-left ul li:before{
     content: '';
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     background: #999999;
     position: absolute;
-    right: -6px;
+    right: -6.5px;
     top: 7px;
     box-sizing: border-box;
 }
-/*.ct-left ul li:before:hover{*/
-    /*background: #000;*/
-/*}*/
+.ct-left ul .acload:before{
+    border:3px solid #462327;
+    background: #e1e1e1;
+}
 .ct-left ul li span{
     display: block;
     width: 100%;
@@ -160,7 +166,7 @@
 }
 .ct-right{
     width: 805px;
-    height: 500px;
+    height: 700px;
     float: right;
 
 }

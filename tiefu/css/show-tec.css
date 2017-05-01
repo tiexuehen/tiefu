@@ -1,10 +1,11 @@
 /*标题图开始*/
+@import url(public.css);
 .nav-img{
     width: 1200px;
-    height: 178px;
-    margin: 0 auto;
-    padding: 24px 0;
-    box-sizing: border-box;
+    height: 130px;
+    margin: 30px auto;
+    margin-top: 80px;
+
 }
 
 /*标题图结束*/
@@ -64,7 +65,7 @@
     height: auto;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     overflow: hidden;
 }
 .con-scroll{

@@ -1,12 +1,17 @@
 /*标题图开始*/
-.nav-img{
+@import url(public.css);
+.nav-img {
     width: 1200px;
-    height: 178px;
-    margin: 0 auto;
-    padding: 24px 0;
+    height: 130px;
     box-sizing: border-box;
+    margin: 30px auto;
+    margin-top: 80px;
 }
-
+.nav-img img{
+    display: block;
+    width: 1200px;
+    height: 130px;
+}
 /*标题图结束*/
 
 
@@ -68,7 +73,7 @@
     margin: 40px auto;
 }
 .container{
-    width: 1130px;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
     margin-top: 60px;

@@ -1,0 +1,195 @@
+@import url(public.css);
+.banner-new{
+    background:url("../images/new1.png") no-repeat center;
+}
+/*专业定制logo*/
+.wh-box{
+    margin:60px auto;
+    width:1200px;
+    height:70px;
+}
+.wh-logobox{
+    width:330px;
+    height:70px;
+    margin:0 auto;
+}
+/*内容*/
+.wh-contbox{
+    width:1200px;
+    height:2105px;
+    padding-top:95px;
+    margin:0 auto;
+    margin-bottom:90px;
+}
+/*侧导航*/
+.wh-nav{
+    float:left;
+}
+.wh-nav .wh-li{
+   width:124px;
+   height:28px;
+}
+.wh-nav li img{
+    display: block;
+    width:24px;
+    height:24px;
+    float:left;
+}
+.wh-nava{
+    display: block;
+    width:95px;
+    height:28px;
+    cursor:pointer;
+    float:right;
+    font-family:'楷体';
+    color: rgb(102, 102, 102);
+    font-size:16px;
+    line-height: 28px;
+}
+.wh-nava:first-child{
+color:rgb(168, 58, 56);
+}
+/*主题内容*/
+.wh-cont{
+    width:950px;
+    height:2010px;
+    float:left;
+    overflow: hidden;
+}
+/*宗教定制*/
+.wh-zj{
+    width:950px;
+    height:590px;
+    margin-bottom:120px;
+}
+.wh-contimg{
+    display: block;
+    width:537px;
+    height:590px;
+    float:left;
+    overflow: hidden;
+
+}
+.wh-contimg img{
+    display: block;
+    width:537px;
+    height:590px;
+    transition:all 0.8s;
+}
+.wh-contimg img:hover{
+    transform:scale(1.2,1.2);
+}
+.wh-contright{
+    width:400px;
+    height:590px;
+    float:right;
+}
+.wh-contr1{
+    width:400px;
+    height:205px;
+}
+.wh-right1{
+    display: block;
+    width:195px;
+    height:195px;
+    float:left;
+    overflow: hidden;
+}
+.wh-right2{
+    float:right;
+}
+.wh-right1 img{
+    width:195px;
+    height:195px;
+    transition:all 0.8s;
+}
+.wh-right1 img:hover{
+    transform:scale(1.2,1.2) ;
+}
+.wh-contr2{
+    width:400px;
+    height:233px;
+}
+.wh-right3{
+    width:195px;
+    height:233px;
+    float:right;
+}
+.wh-righta{
+    width:63px;
+    height:233px;
+    margin:0 auto;
+    background:url("../images/wh/wh-bg.png") no-repeat;
+    padding:32px 0;
+}
+.wh-righta1{
+    padding:8px 0;
+}
+.wh-rfont{
+    width:71px;
+    height:170px;
+}
+.wh-rfont li{
+    font-size: 24px;
+    font-family: 'wyfs';
+    color: #A83A38;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wh-ry{
+    width:22px;
+    height:22px;
+    border: 2px solid #A83A38;
+    border-radius: 50%;
+    margin:0 auto;
+}
+.wh-ry1{
+    width: 12px;
+    height:12px;
+    background: #A83A38;
+    border-radius: 50%;
+    margin:3px auto;
+}
+.wh-contr3{
+    width:400px;
+    height:141px;
+    margin-top:10px;
+    padding-left:20px;
+}
+.wh-contr3 h4{
+    font-size:16px;
+    font-weight: bold;
+}
+.wh-p1{
+    width: 245px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #555555;
+}
+.wh-p2{
+    width:380px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+.wh-p2 span{
+    color: #FF1212;
+}
+.wh-contright1{
+    float:left;
+}
+.wh-contimg1{
+    float:right;
+}
+.wh-font{
+    margin-left:320px;
+}
+.wh-mp1{
+    margin-left: 60px;
+    font-size:14px;
+    margin-top:10px;
+}
+.wh-mp2{
+    margin-left:120px;
+}
+

@@ -1,0 +1,319 @@
+@import url(public.css);
+.banner-new{
+    background:url("../images/new1.png") no-repeat center;
+}
+.wh-bigbox{
+    width:1200px;
+    height:2984px;
+    margin: 0 auto;
+}
+/*精品展示logo*/
+.wh-box{
+    margin:60px auto;
+    width:1200px;
+    height:68px;
+}
+.wh-logobox{
+    width:329px;
+    height:68px;
+    margin:0 auto;
+}
+/*内容*/
+.wh-contbox{
+    width:1200px;
+    height:971px;
+    margin:0 auto;
+}
+/*小导航*/
+.wh-nav{
+    width:586px;
+    height:25px;
+    margin:0 auto;
+    margin-bottom:68px;
+}
+.wh-cont{
+    width:130px;
+    height:25px;
+    font-size: 22px;
+    float:left;
+    cursor: pointer;
+    position:relative;
+}
+.wh-cont img{
+    position: absolute;
+    width:115px;
+    top:0;bottom:0;left:0;right:0;
+    margin:auto;
+  display: none;
+}
+.wh-cont:hover img{
+     display: block;
+ }
+.wh-cont:hover .wh-contnav{
+    color:#222;
+}
+.wh-contnav{
+   width:100%;
+    height:25px;
+    position: absolute;
+    top:0;
+    text-align: center;
+    line-height:25px;
+    color:#999;
+}
+.wh-cont1{
+    width:152px;
+}
+/*展示*/
+.wh-banbox{
+    width:1200px;
+    height:439px;
+}
+.wh-banleftbox{
+    width:770px;
+    height:439px;
+    float:left;
+    position: relative;
+}
+.wh-banleft{
+    display: block;
+    width:770px;
+    height:439px;
+    float:left;
+
+}
+.wh-hidden{
+    width:770px;
+    height:439px;
+    background: rgba(0, 0, 0, 0.31);
+    margin:0 auto;
+    padding-top:106px;
+    position: absolute;
+    top:0;left:0;
+    display: none;
+}
+.wh-showhbox{
+    width:326px;
+    height:439px;
+    float:right;
+    margin-right:40px;
+    position:relative;
+}
+.wh-ha{
+    width:18px;
+    height:100px;
+    background:url("../images/wh/wh-showbg4.png") no-repeat;
+    background-size:18px 100px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top:233px;left:40px;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+    line-height: 18px;
+}
+.wh-ha1{
+    position: absolute;
+    top:130px;
+}
+.wh-lr{
+    width:163px;
+    height:228px;
+    background:url("../images/wh/wh-showbg1.png") no-repeat center center;
+    position: relative;
+    margin-left:163px;
+
+}
+.wh-himgbox{
+    width:40px;
+    height:40px;
+    position: absolute;
+    right: 3px;
+    bottom: 90px;
+}
+.wh-himgbox img{
+    display: block;
+    width:100%;
+}
+.wh-hiddenp1{
+    width:51px;
+    height:45px;
+    position: absolute;
+    color:#fff;
+    font-family: '楷体';
+    font-size:45px;
+    left: 96px;
+    top: -25px;
+}
+.wh-hiddenp1-1{
+    left: 130px;
+    top: 33px;
+    font-size:55px;
+}
+.wh-hiddenp2{
+    font-size: 18px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    margin: 0;
+    color: #FDFDFD;
+}
+.wh-himgbox1{
+    width: 13px;
+    height: 24px;
+    position: absolute;
+    left: 70px;
+    top: 131px;
+}
+.wh-himgbox1 img{
+    width: 13px;
+    height: 24px;
+    display: block;
+}
+.wh-hiddenp3{
+    font-family: 'wyfs','楷体' ;
+    width:63px;
+    height: 130px;
+    text-indent: 2em;
+    color: rgb(226, 226, 226);
+    font-size: 14px;
+    position: absolute;
+    right: 125px;
+    top: 75px;
+    writing-mode: vertical-rl;
+}
+
+.wh-banleftbox:hover .wh-hidden{
+    display: block;
+}
+.wh-banright{
+    width:430px;
+    height:439px;
+    float:right;
+}
+.wh-banr1{
+    display: block;
+    width:430px;
+    height:220px;
+    background:url("../images/wh/wh-ban2.png") no-repeat;
+    background-position: center;
+}
+.wh-banr2{
+    width:430px;
+    height:219px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.wh-title{
+    width:100%;
+    font-size:18px;
+    margin:0 auto;
+    text-align: center;
+}
+.wh-banr2 img{
+    display: block;
+    width:43px;
+    margin:0 auto;
+}
+.wh-banright1{
+    float:left;
+}
+.wh-banleft1{
+    float:right;
+    overflow: hidden;
+}
+/*素壶展示*/
+.wh-showbox{
+    width:1044px;
+    height:1545px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.wh-show{
+    width:348px;
+    height:475px;
+    float:left;
+    margin-bottom: 60px;
+}
+.wh-showa{
+    display: block;
+    width:305px;
+    height:369px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.wh-showa:hover{
+    box-shadow:0 0 25px #000 ;
+}
+h5{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+}
+.wh-showimg{
+    width:51px;
+    height:11px;
+    margin:0 auto;
+}
+.wh-show p{
+    width:305px;
+    font-size:16px;
+    margin:0 auto;
+}
+/*分页*/
+.wh-fenye{
+    width:400px;
+    height:60px;
+    margin:0 auto;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: space-around;
+}
+.wh-prev{
+    display: block;
+    width:48px;
+    height:24px;
+    border-radius: 20px;
+    border:1px solid #060606;
+    float:left;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    line-height:24px;
+}
+.wh-first{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #060606;
+    float: left;
+    color: #000;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.wh-span{
+    width: 48px;
+    height:18px;
+    font-size:16px;
+    float:left;
+}
+.wh-text{
+    width: 47px;
+    height: 23px;
+    border-radius: 20px;
+    border: 1px solid #E0DFE0;
+    background: #F7F7F7;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float:left;
+}
+
+
+
