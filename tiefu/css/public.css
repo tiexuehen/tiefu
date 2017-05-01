@@ -60,3 +60,252 @@ body{
 .icon-database:before{content:"\f1c0";}.icon-file-pdf-o:before{content:"\f1c1";}.icon-file-word-o:before{content:"\f1c2";}.icon-file-excel-o:before{content:"\f1c3";}.icon-file-powerpoint-o:before{content:"\f1c4";}.icon-file-photo-o:before,.icon-file-picture-o:before,.icon-file-image-o:before{content:"\f1c5";}.icon-file-zip-o:before,.icon-file-archive-o:before{content:"\f1c6";}.icon-file-sound-o:before,.icon-file-audio-o:before{content:"\f1c7";}.icon-file-movie-o:before,.icon-file-video-o:before{content:"\f1c8";}.icon-file-code-o:before{content:"\f1c9";}.icon-vine:before{content:"\f1ca";}.icon-codepen:before{content:"\f1cb";}.icon-jsfiddle:before{content:"\f1cc";}.icon-life-bouy:before,.icon-life-saver:before,.icon-support:before,.icon-life-ring:before{content:"\f1cd";}.icon-circle-o-notch:before{content:"\f1ce";}
 .icon-ra:before,.icon-rebel:before{content:"\f1d0";}.icon-ge:before,.icon-empire:before{content:"\f1d1";}.icon-git-square:before{content:"\f1d2";}.icon-git:before{content:"\f1d3";}.icon-hacker-news:before{content:"\f1d4";}.icon-tencent-weibo:before{content:"\f1d5";}.icon-qq:before{content:"\f1d6";}.icon-wechat:before,.icon-weixin:before{content:"\f1d7";}.icon-send:before,.icon-paper-plane:before{content:"\f1d8";}.icon-send-o:before,.icon-paper-plane-o:before{content:"\f1d9";}.icon-history:before{content:"\f1da";}.icon-circle-thin:before{content:"\f1db";}.icon-header:before{content:"\f1dc";}.icon-paragraph:before{content:"\f1dd";}.icon-sliders:before{content:"\f1de";}.icon-share-alt:before{content:"\f1e0";}.icon-share-alt-square:before{content:"\f1e1";}.icon-bomb:before{content:"\f1e2";}
 /*定义字体结束*/
+/*头部*/
+.header{
+    width:100%;
+    height:90px;
+    margin:0 auto;
+    background: #fff;
+    padding-top:13px;
+}
+.header .logo{
+    width:295px;
+    height:63px;
+    margin:0 auto;
+    background: url("../images/logo.png") no-repeat;
+}
+
+/*导航*/
+.nav{
+    width:100%;
+    height:50px;
+    background: #462327;
+}
+.nav .nav-center{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .nav-center li{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+}
+.nav .nav-center li span{
+    float: left;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background: #ed965f;
+    margin-right:7px;
+    opacity: 0;
+}
+.nav .nav-center li a{
+    color: #ffa265;
+    font-size: 16px;
+}
+.nav .nav-center li .nav-color{
+    color: #ffd7bc;
+}
+.nav .nav-center li a:hover{
+    color: #ffd7bc;
+}
+.nav .nav-center li:hover span{
+    opacity: 1;
+}
+.bath{
+    width:1200px;
+    height:130px;
+    margin:30px auto;
+}
+.bath img{
+    display: block;
+    width:1200px;
+    height:130px;
+}
+/*面包屑导航*/
+.nav-bath{
+    width:1200px;
+    height:40px;
+    margin:0 auto;
+    margin-bottom:20px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.nav-bath .hll-show{
+    float: left;
+    width:33px;
+    height:40px;
+    background: url("../images/nav-2.png") center no-repeat;
+}
+.nav-bath .color{
+    float: left;
+    color: #8f8f8f;
+}
+.nav-bath .color1{
+    float: left;
+    color: #462327;
+}
+.nav-bath .show1{
+    float: left;
+    width:33px;
+    height:40px;
+    background: url("../images/nav-1.png") center no-repeat;
+}
+/*banner*/
+.banner-new{
+    width:100%;
+    height:520px;
+    background: url("../images/new1.png") center no-repeat;
+}
+/*站底*/
+.foot{
+    width:100%;
+    height:455px;
+    background: #fff;
+}
+.hll-foot .hll-foot-logo{
+    width:1200px;
+    height:135px;
+    margin:0 auto;
+}
+.hll-foot .hll-foot-logo .hll-img{
+    width:325px;
+    height:88px;
+    margin:0 auto;
+    background: url("../images/logo2.png") no-repeat;
+}
+.hll-foot .hll-bottom{
+    width:100%;
+    height:320px;
+    background: url("../images/foot1.png") no-repeat center;
+}
+.hll-foot .hll-bottom1{
+    width:1200px;
+    height:320px;
+    margin: 0 auto;
+    position: relative;
+    padding-top:106px;
+
+}
+.hll-foot .hll-bottom1 .hll-totop{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background: rgba(216,216,216,.4);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -35px;
+}
+.hll-foot .hll-bottom1 .hll-topin{
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.5s;
+}
+@keyframes upDown {
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+.hll-foot .hll-bottom1 .hll-topin span{
+    transition: all 0.5s ease;
+    display: block;
+    width: 30px;
+    height: 18px;
+    background: url("../images/toTop.png") no-repeat center center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation-name: upDown;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.hll-foot .hll-bottom1 .hll-totop:hover .hll-topin{
+    background: #a7eca2 ;
+}
+.hll-foot .hll-bottom1 .hll-fo-content{
+    width:332px;
+    height:58px;
+    margin:0 auto;
+}
+.hll-foot .hll-bottom1 .hll-fo-top{
+    width:301px;
+    height:33px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hll-foot .hll-bottom1 .hll-fo-topin{
+    display: block;
+    width:33px;
+    height:33px;
+    border-radius:50%;
+    background: #fff;
+    position: relative;
+}
+.hll-foot .hll-bottom1 .hll-fo-topin .hll-img{
+    width:15px;
+    height:16px;
+    background: url("../images/foot2.png") no-repeat;
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+.hll-foot .hll-bottom1 .hll-fo-topin .hll-img1{
+    width:20px;
+    height:17px;
+    background: url("../images/foot3.png") no-repeat;
+
+}
+.hll-foot .hll-bottom1 .hll-fo-topin .hll-img2{
+    width:20px;
+    height:17px;
+    background: url("../images/foot4.png") no-repeat;
+}
+.hll-foot .hll-bottom1 .hll-fo-bottom{
+    width:332px;
+    height:25px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    padding-right:5px;
+}
+.hll-foot .hll-bottom1 .hll-fo-foot{
+    margin-top:46px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+}

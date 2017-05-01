@@ -1,0 +1,264 @@
+@import "public.css";
+/*标题图开始*/
+.title{
+    width:1200px;height:130px;
+    margin:0 auto;
+    background:url(../images/wk/join-title.jpg) no-repeat;
+    margin-top:30px;
+}
+.title h1{
+    color:#fff;
+    font-size:48px;
+    font-family:"仿宋";
+    font-weight:bold;
+    text-align:center;
+    padding-top:20px;
+}
+.title h2{
+    font-family:"微软雅黑";
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+}
+/*标题图结束*/
+
+/*面包屑导航开始*/
+.path-nav{
+    width:1200px;height:26px;
+    margin:0 auto;
+    margin-top:56px;
+    margin-bottom:20px;
+}
+.path-nav li{
+    font-size:16px;
+    float:left;
+    line-height:26px;
+    margin-right:10px;
+}
+.path-nav li a{
+    color:#999;
+}
+.right-arrow{
+    color:#222;
+}
+/*面包屑导航结束*/
+
+/*加盟banner开始*/
+.banner{
+    width:100%;
+    min-width:1200px;
+    height:500px;
+    overflow:hidden;
+}
+.banner img{
+    display:block;
+    width:auto;
+    height:100%;
+    margin:0 auto;
+}
+/*加盟banner结束*/
+
+/*企业文化开始*/
+.culture-img{
+    display:block;
+    margin:0 auto;
+    margin-top:72px;
+}
+.culture{
+    width:1000px;
+    height:360px;
+    background:url("../images/wk/wk-bg-cultural.png") no-repeat center;
+    margin:0 auto;
+}
+.culture-show{
+    font-family:"仿宋";
+    font-weight:bold;
+    font-size:36px;
+    margin-left:30px;
+}
+.enculture-show{
+    font-family:"微软雅黑";
+    font-size:18px;
+    margin-left:30px;
+}
+.cnshow{
+    margin:30px auto;
+    width:750px;
+    font-size:16px;
+    color: #462327;
+    font-weight: bold;
+    text-indent: 2em;
+    text-overflow:ellipsis;
+   /* white-space:nowrap;*/
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+
+}
+.enshow{
+    margin: 40px auto 0;
+    color: #999;
+    text-indent: 2em;
+    text-align: justify;
+    width:750px;
+    font-size:16px;
+
+
+/*    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;*/
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+}
+/*企业文化结束*/
+
+/*图片展示开始*/
+.imgshow{
+    width:1200px;
+    height:493px;
+    margin:0 auto;
+}
+.imgshow>div{
+    float:left;
+    margin:0 5px;
+}
+.imgshow>div>div{
+    margin-bottom:10px;
+}
+/*图片展示结束*/
+
+/*经营理念开始*/
+#idea{
+    margin-top:60px;
+    background:url("../images/wk/wk-bg-culture2.png") no-repeat center;
+}
+.culture{
+    width:1000px;
+    height:360px;
+
+    margin:0 auto;
+}
+.culture-show{
+    font-family:"仿宋";
+    font-weight:bold;
+    font-size:36px;
+    margin-left:30px;
+}
+.enculture-show{
+    font-family:"微软雅黑";
+    font-size:18px;
+    margin-left:30px;
+}
+.cnshow{
+    display:block;
+    margin:30px auto;
+    width:750px;
+    font-size:16px;
+    color: #462327;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.enshow{
+    margin: 40px auto 0;
+    color: #999;
+    text-indent: 2em;
+    text-align: justify;
+    width:750px;
+    font-size:16px;
+}
+/*经营理念结束*/
+
+/*idea展示开始*/
+.ideashow{
+    width:1200px;
+    height:320px;
+    margin:0 auto;
+}
+.ideashow>div{
+    margin-right:10px;
+    float:left;
+}
+/*idea展示结束*/
+
+/*关于我们开始*/
+.about{
+    width:100%;
+    min-width:1200px;
+    height:730px;
+    margin-top:60px;
+    background:url(../images/wk/wk-map.jpg) no-repeat 0 150px;
+}
+#about{
+    height:335px;
+    background:#fff url("../images/wk/wk-bg-cultural.png") no-repeat center 10px;
+}
+.culture{
+    width:1000px;
+    height:360px;
+    margin:0 auto;
+}
+.culture-show{
+    font-family:"仿宋";
+    font-weight:bold;
+    font-size:36px;
+    margin-left:30px;
+}
+#aboutshow{
+
+}
+.enculture-show{
+    font-family:"微软雅黑";
+    font-size:18px;
+    margin-left:30px;
+}
+.cnshow{
+    display:block;
+    margin:30px auto;
+    width:750px;
+    font-size:16px;
+    color: #462327;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.enshow{
+    margin: 40px auto 0;
+    color: #999;
+    text-indent: 2em;
+    text-align: justify;
+    width:750px;
+    font-size:16px;
+}
+/*关于我们结束*/
+
+/*联系我们开始*/
+.contact{
+    width:1200px;
+    margin:0 auto;
+    font-size:24px;
+    padding-left:240px;
+    padding-top:30px;
+}
+.contact p{
+    margin-top:20px;
+}
+.imgcode{
+    width:149px;
+    height:149px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.know{
+    font-size:28px;
+    text-align:center;
+    margin:20px auto;
+    margin-bottom: 90px;
+}
+/*联系我们结束*/

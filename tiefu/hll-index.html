@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/hll-index.css">
+</head>
+<body>
+<!--头部开始-->
+<header class="header">
+  <div class="logo"></div>
+</header>
+<!--导航栏开始-->
+<nav class="nav">
+    <ul class="nav-center">
+        <!--导航循环开始-->
+       <li><span></span><a href="" class="nav-color">首页</a></li>
+        <li><span></span><a href="" >经典铁壶</a></li>
+        <li><span></span><a href="" >生肖铁壶</a></li>
+        <li><span></span><a href="" >铁器礼品</a></li>
+        <li><span></span><a href="" >工艺作品</a></li>
+        <li><span></span><a href="" >铸铁文化</a></li>
+        <li><span></span><a href="" >合作加盟</a></li>
+        <li><span></span><a href="" >最新资讯</a></li>
+        <li><span></span><a href="" >定制</a></li>
+        <!--导航循环结束-->
+    </ul>
+</nav>
+<!--导航栏结束-->
+<!--头部结束-->
+<!--banner开始-->
+<div class="banner">
+    <div class="banner-ba">
+    <ul>
+        <!--轮播开始-->
+        <li class="down"><a href="#"><img src="images/banner.png" alt=""></a></li>
+        <li class=""><a href="#"><img src="images/banner1.png" alt=""></a></li>
+        <li class=""><a href="#"><img src="images/banner2.png" alt=""></a></li>
+        <!--轮播结束-->
+    </ul>
+    <div class="banner-list">
+        <div class="banner-list-fo row"></div>
+        <div class="banner-list-fo"></div>
+        <div class="banner-list-fo"></div>
+    </div>
+    <div class="le-ri">
+    <div class="left"></div>
+    <div class="right"></div>
+    </div>
+</div>
+</div>
+<!--banner结束-->
+<!--内容1-->
+<div class="content">
+  <div class="img"></div>
+</div>
+<!--关于产品-->
+<div class="gysp">
+    <div class="gy-top">
+        <a href="#"><div class="img"></div></a>
+    </div>
+    <div class="gy-center">
+        <a href="#"><img src="images/hll/con3.png" alt=""></a>
+    </div>
+    <div class="wrap">
+        <div class="wrap-wr"><span></span><a href="#">闲暇得空之时，遇三两友人造访，煮一壶水，冲一泡好茶，斟茶倒水之间， </a></div>
+    </div>
+    <div class="wrap wrap1">
+        <div class="wrap-wr"><a href="#"> 畅意抒怀，颇为闲趣，高雅不过如此。</a></div>
+    </div>
+    <div class="gy-top">
+        <a href="#"><div class="img1"></div></a>
+    </div>
+</div>
+<!--铁府新品-->
+<div class="nowund">
+    <a href=""><div class="img"></div></a>
+</div>
+<!--新品分类-->
+<div class="broad">
+    <div class="list"><a href="#"><img src="images/hll/con6.png" alt=""></a></div>
+</div>
+<!--站底-->
+<footer class="foot">
+    <div class="foot-logo">
+        <div class="img"></div>
+    </div>
+    <div class="bottom">
+        <div class="bottom1">
+            <div class="totop">
+                <div class="topin">
+                    <span></span>
+                </div>
+            </div>
+            <div class="fo-content">
+               <div class="fo-top">
+                   <a href="#" class="fo-topin"><div class="img"></div></a>
+                   <a href="#" class="fo-topin"><div class="img img1"></div></a>
+                   <a href="#" class="fo-topin"><div class="img img2"></div></a>
+               </div>
+              <div class="fo-bottom">
+                  <span>919142521</span>
+                  <span>XiangRuiTieFu</span>
+                  <span class="img">祥瑞铁府</span>
+              </div>
+            </div>
+            <div class="fo-foot">
+                <p><span>TEL:400-0356-115 </span>&nbsp; <span>中国·山西省晋城市新市东街423号丝麻大厦8层 </span>&nbsp;<span>  Email : xiangruitiefu@tiefu.com</span></p>
+                <p><span>晋ICP备12001607号-2</span>&nbsp; <span>版权所有© 2015 晋城市量子文化传媒有限公司 </span>&nbsp;<span>  技术支持: 远齐科技</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/animate.js"></script>
+<script>
+window.onload=function () {
+    var banner=document.querySelector(".banner .banner-ba");
+    var list=document.querySelectorAll(".banner ul li");
+    var border=document.querySelectorAll(".banner .banner-list .banner-list-fo");
+    var baleft=document.querySelector(".banner .left");
+    var baright=document.querySelector(".banner .right");
+    //轮播图
+    var num=0;
+    var num1=0;
+    var tt=setInterval(move,1000);
+    function move() {
+        num++;
+        if(num===3){
+            num=0;
+        }
+        if(num===-1){
+            num=2;
+        }
+        list[num1].style.zIndex="1";
+        list[num1].style.opacity="0";
+        list[num].style.zIndex="2";
+        list[num].style.opacity="1";
+        border[num1].style.background="#fff";
+        border[num].style.background="#c77c51";
+        num1=num;
+    }
+    banner.onmouseover=function () {
+        clearInterval(tt);
+    };
+    banner.onmouseout=function () {
+        tt=setInterval(move,3000);
+    };
+
+        border.forEach(function (v,i) {
+            border[i].onclick = function () {
+                list[num1].style.zIndex = "1";
+                list[num1].style.opacity = "0";
+                list[i].style.zIndex = "2";
+                list[i].style.opacity = "1";
+                border[num1].style.background = "#fff";
+                border[i].style.background = "#c77c51";
+                num1 = i;
+            }
+        });
+    baleft.onclick=function () {
+        move();
+    };
+    baright.onclick=function () {
+        num-=2;
+        move();
+    };
+//回到顶部
+    var load=document.querySelector(".foot .bottom1 .totop");
+    var obj=0;
+    window.onscroll=function () {
+        obj=document.body.scrollTop ===0?document.documentElement:document.body;
+    };
+
+    load.onclick=function(){
+        animate(obj, {scrollTop: 0},3000);
+    }
+
+
+//结束
+}
+</script>
+</html>
