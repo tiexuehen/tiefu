@@ -1,0 +1,149 @@
+.container{
+    width: 100%;
+    height: 130px;
+    margin-top: 24px;
+}
+.content{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+}
+.content .img{
+    width: 1200px;
+    height: 130px;
+    display: block;
+
+}
+/*面包屑导航*/
+.mbx-container{
+    width: 100%;
+    height: 30px;
+    margin-top: 45px;
+}
+.mbx-content{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.mbx-img1{
+    width: 37px;
+    height: 30px;
+    float: left;
+}
+.mbx-img1 .img{
+    width: 37px;
+    height: 30px;
+    display: block;
+}
+.mbx-sy{
+    width: 66px;
+    height: 30px;
+    float: left;
+}
+.mbx-sy a{
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    color: #7f7f7f;
+}
+.mbx-sy p{
+    font-size: 14px;
+    color: #8f8f8f;
+    float: left;
+    margin-right: 16px;
+}
+.mbx-img2{
+    width: 31px;
+    height: 30px;
+    float: left;
+}
+.mbx-img2 .img{
+    width: 31px;
+    height: 30px;
+    display: block;
+}
+.mbx-gyzp{
+    width: 66px;
+    height: 30px;
+    float: left;
+}
+.mbx-gyzp a{
+    width: 166px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.mbx-gyzp p{
+    font-size: 14px;
+    color: #462327;
+    float: left;
+    margin-right: 16px;
+}
+/*铁府*/
+.tf-container{
+    width: 100%;
+    height: 520px;
+    margin-top: 45px;
+    background: url(../images/lc/big-lc.png) center center/cover;
+}
+/*list开始*/
+.zp-container{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.zp-content{
+    width: 996px;
+    height: auto;
+    margin: 0 auto;
+}
+.zp-img{
+    width: 289px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list-container{
+    width: 996px;
+    height: 363px;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+.item{
+    width: 313px;
+    height: 363px;
+    text-align: center;
+    margin-right: 28px;
+    float: left;
+}
+.item a{
+    width: 313px;
+    height: 314px;
+}
+.item img{
+    display: block;
+    width: 313px;
+    height: 314px;
+}
+.zi{
+    width: auto;
+    height: 49px;
+    margin: 0 auto;
+    padding-top: 24px;
+    font-size: 20px;
+    color: #7a7979;
+    display: block;
+}
+.list2{
+    margin-top: 57px;
+}
+.link{
+    width: 107px;
+    height: 34px;
+    margin: 63px auto 0;
+}
+.link img{
+    display: block;
+}
+
+

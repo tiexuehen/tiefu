@@ -1,0 +1,105 @@
+/*标题图开始*/
+.nav-img{
+    width: 1200px;
+    height: 178px;
+    margin: 0 auto;
+    padding: 24px 0;
+    box-sizing: border-box;
+}
+
+/*标题图结束*/
+
+
+/*面包屑导航开始*/
+.tec-path{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.nav{
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+}
+.nav img{
+    float: left;
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin-top:14px;
+}
+
+.nav a{
+    float: left;
+    text-decoration: none;
+    color: #666666;
+}
+.hover a{
+    color: #462327;
+}
+
+
+/*面包屑导航结束*/
+
+
+
+/*banner图开始*/
+.banner{
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+}
+.bannerBox{
+
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/njm/banner_01.png) no-repeat center center;
+}
+
+/*banner图结束*/
+
+
+/*铁斧三级页面历史内容开始*/
+.con-scroll{
+    display: block;
+    width: 335px;
+    margin: 40px auto;
+}
+.container{
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.con-one{
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    font-family: 微软雅黑;
+    list-style: none;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    white-space: normal;
+}
+.con-two{
+    margin: 50px 0 70px;
+    padding: 0px;
+    font-family: 微软雅黑;
+    width: 1000px;
+    height: 425px; overflow: hidden;
+    color: rgb(34, 34, 34);
+    white-space: normal;
+}
+.con-two img{
+    margin: 0; padding: 0; display: block; width: 1000px;
+}
+
+/*铁斧三级页面历史内容结束*/

@@ -1,0 +1,242 @@
+.container{
+    width: 100%;
+    height: 130px;
+    margin-top: 24px;
+}
+.content{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+}
+.content .img{
+    width: 1200px;
+    height: 130px;
+    display: block;
+
+}
+/*面包屑导航*/
+.mbx_container{
+    width: 100%;
+    height: 30px;
+    margin-top: 45px;
+}
+.mbx_content{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.mbx_img1{
+    width: 37px;
+    height: 30px;
+    float: left;
+}
+.mbx_img1 .img{
+    width: 37px;
+    height: 30px;
+    display: block;
+}
+.mbx_sy{
+    width: 66px;
+    height: 30px;
+    float: left;
+}
+.mbx_sy a{
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    color: #7f7f7f;
+}
+.mbx_sy p{
+    font-size: 14px;
+    color: #8f8f8f;
+    float: left;
+    margin-right: 16px;
+}
+.mbx_img2{
+    width: 31px;
+    height: 30px;
+    float: left;
+}
+.mbx_img2 .img{
+    width: 31px;
+    height: 30px;
+    display: block;
+}
+.mbx_gyzp{
+    width: 66px;
+    height: 30px;
+    float: left;
+}
+.mbx_gyzp a{
+    width: 166px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.mbx_gyzp p{
+    font-size: 14px;
+    color: #462327;
+    float: left;
+    margin-right: 16px;
+}
+/*铁府*/
+.tf_container{
+    width: 100%;
+    height: 520px;
+    margin-top: 45px;
+    background: url(../images/lc/ztgy-lc.png) center center/cover;
+}
+/*list开始*/
+.zp_container{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.zp_content{
+    width: 996px;
+    height: auto;
+    margin: 0 auto;
+}
+.zp_img{
+    width: 289px;
+    height: 60px;
+    margin: 0 auto;
+}
+/*中间部分*/
+.ct-container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+    margin-top: 65px;
+}
+.ct-content{
+    width: 100%;
+    height: 100%;
+}
+.ct-left{
+    border-top: 1px solid #666666;
+    border-right: 1px solid #666666;
+    width: 140px;
+    height: 275px;
+    float: left;
+}
+.ct-left ul li{
+    margin-top: 40px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    cursor: pointer;
+}
+.ct-left ul li:before{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #999999;
+    position: absolute;
+    right: -6px;
+    top: 7px;
+    box-sizing: border-box;
+}
+/*.ct-left ul li:before:hover{*/
+    /*background: #000;*/
+/*}*/
+.ct-left ul li span{
+    display: block;
+    width: 100%;
+    text-align: right;
+    height: 16px;
+    line-height: 16px;
+    color: #666666;
+    font-size: 16px;
+}
+.ct-right{
+    width: 805px;
+    height: 500px;
+    float: right;
+
+}
+.r-lists{
+    width: 805px;
+    height: 200px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.active{
+    box-shadow: 0 10px 50px #444;
+    border-right: 30px;
+}
+.r-lists .thumb{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+.r-lists .thumb img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.listRright{
+    width: 590px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+}
+.listTop{
+    width: 590px;
+    height: 65px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #462327;
+    position: relative;
+}
+.listTitle span{
+    display: block;
+    text-transform: uppercase
+}
+.listTitle span:first-child{
+    color: #462327;
+    font-size: 24px;
+}
+.listTitle span:last-child{
+    color: #462327;
+    font-size: 14px;
+}
+.listRright .listTop a{
+    width: 80px;
+    height: 28px;
+    display: block;
+    border-radius: 30px;
+    background: #e1e1e1;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #222;
+    font-size: 16px;
+    color: #462327;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    margin-right: 10px;
+}
+.listBottom{
+
+}
+.updateTime{
+    padding: 10px 0 8px 0;
+    color: #666666;
+    font-size: 14px;
+}
+.listText{
+    font-size: 16px;
+    color: #000;
+}
+

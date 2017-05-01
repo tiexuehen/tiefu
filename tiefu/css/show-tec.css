@@ -1,0 +1,156 @@
+/*标题图开始*/
+.nav-img{
+    width: 1200px;
+    height: 178px;
+    margin: 0 auto;
+    padding: 24px 0;
+    box-sizing: border-box;
+}
+
+/*标题图结束*/
+
+/*面包屑导航开始*/
+.tec-path{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.nav{
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+}
+.nav img{
+    float: left;
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin-top:14px;
+}
+
+.nav a{
+   float: left;
+    text-decoration: none;
+    color: #666666;
+}
+.hover a{
+    color: #462327;
+}
+
+
+/*面包屑导航结束*/
+
+/*banner图开始*/
+.banner{
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+}
+.bannerBox{
+
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/njm/banner_02.jpg) no-repeat center center;
+}
+
+/*banner图结束*/
+
+
+/*铁斧三级页面历史内容开始*/
+.container{
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.con-scroll{
+    display: block;
+    width: 335px;
+    margin: 40px auto;
+    margin-bottom: 100px;
+
+}
+.con-slzz{
+    width: 100%;
+    height: 340px;
+
+    box-sizing: border-box;
+}
+.con-sl-a{
+    width: 552px;
+    height: 100%;
+    background: #000;
+    float: left;
+    overflow: hidden;
+}
+.con-one img{
+    height: 130%;
+    margin-left: -140%;
+}
+.con-sl-b{
+    background: url(../images/njm/shila.png) 0 55px no-repeat;
+    background-size: 100% auto;
+    width: 552px;
+    height: 100%;
+    float: right;
+}
+.con-wz{
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.con-wz span{
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+}
+.con-chahu ,.con-jyxq ,.con-fangxiu{
+    float: right;
+}
+.con-two{
+    background: url(../images/njm/er.png) 0 55px no-repeat;
+float: left;
+}
+.con-gold img{
+    height: 100%;
+    margin-left: -110px;
+}
+.con-three{
+    background: url(../images/njm/san.png) 0px 55px no-repeat;
+
+
+}
+.con-jyxq img{
+    height: 100%;
+    margin-left: -30px;
+}
+.con-four{
+    background: url(../images/njm/si.png) 0px 55px no-repeat;
+    float: left;
+}
+
+.con-lajinyin img{
+    margin-left: -130px;
+}
+.con-five{
+    background: url(../images/njm/wu.png) 0px 55px no-repeat;
+
+}
+.con-fangxiu img{
+    margin-left: -20px;
+}
+.con-six{
+    background: url(../images/njm/liu.png) 0px 55px no-repeat;
+    float: left;
+}
+
+/*铁斧三级页面历史内容结束*/
